@@ -21,4 +21,5 @@ urlpatterns = [
     path('', views.homepage, name='homepage'),
     path('shivdeep/', admin.site.urls),
     path('memory/', include('memory.urls')),
+    path('home',views.home, name='home'),
 ]
