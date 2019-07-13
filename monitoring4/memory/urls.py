@@ -19,4 +19,5 @@ from . import views
 
 urlpatterns = [
     path('', views.clrmry, name='clrmry'),
+    path('clr',views.clrry,name='clr'),
 ]

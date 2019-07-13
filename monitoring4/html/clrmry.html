@@ -2,7 +2,7 @@
 <head><title>Clear Memory</title></head>
 <body>
 <h1 style="color:grey">Clear Server Cache Memory:</h1>
-<form >
+<form action="clr" method="POST">{% csrf_token %}
       
     <h2 style="color:grey">-> Continental:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="Server" value="vertecore"><span style="color:orange">Core&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
         <input type="radio" name="Server" value="verteinterface"><span style="color:orange">Interface&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
