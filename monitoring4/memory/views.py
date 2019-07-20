@@ -15,8 +15,9 @@ def clrmry(request):
 
 def clrry(request):
     server= request.POST.get('Server')
-    subprocess.Popen("start","//mnt//c//Windows//System32//cmd.exe", buff =0,shell= True)
+    p=subprocess.Popen("/usr/bin/gnome-terminal")
+    #ssh gor@192.168.8.127
     return HttpResponse (clrry)
 
-    print(server)
+    
     #return render(request, 'clrmry.html')
