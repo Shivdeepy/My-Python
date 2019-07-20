@@ -25,7 +25,7 @@ SECRET_KEY = '1ik^x+yzp6wmr4ldg59rjy$n=!jzpnp93=s2@-=_k%u@60s-*0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['smartnoc.cac','192.168.43.178','0.0.0.0']
+ALLOWED_HOSTS = ['smartnoc.cac','192.168.43.178','192.168.4.40']
 
 
 # Application definition
